@@ -121,6 +121,8 @@ public class MainActivity extends Activity {
             case R.id.Browse_Glass_HDD:
                 // TODO Find a way to browse the Glass hard drive for images
 
+
+
                 return true;
 
             case R.id.Take_Photo:

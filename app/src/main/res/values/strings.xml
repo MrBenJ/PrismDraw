@@ -35,5 +35,7 @@
     <string name="Search_Image">Google Images</string>
     <string name="Exit">Exit Art Assist</string>
     <string name="main_activity_label">Main Activity</string>
+    <string name="title_activity_image_select">Image Selection Activity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
