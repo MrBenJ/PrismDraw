@@ -43,7 +43,6 @@ public class MainActivity extends Activity {
     public Bitmap tutorialImage;
     public Bitmap workspaceImage;
     public Bitmap workspaceImageScaled;
-    // private Uri picUri;
     public boolean isTutorialRunning = true;
     protected ProgressBar progressBar;
     public boolean isAboutRunning = false;
@@ -120,7 +119,8 @@ public class MainActivity extends Activity {
         switch (item.getItemId()) {
             case R.id.Browse_Glass_HDD:
                 // TODO Find a way to browse the Glass hard drive for images
-
+                Intent intent = new Intent (this, ImageSelectActivity.class);
+                startActivity(intent);
 
 
                 return true;
